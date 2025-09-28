@@ -1,0 +1,90 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Updates",
+                "title_short_nav": "Updates",   
+                "title_long_prefix": "Here are some",
+                "title_long": "Research {{Updates}}"
+            }
+        }
+    },
+        "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                 {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "dateEnd": {
+                        "year": 2026,
+                        "month": 1
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Self Supervised Learning for EYE disease detection  {{AI/ML}}",
+                            "province": "Western",
+                            "country": "SL",
+                            "institution": "University Of Kelaniya",
+                            "tags": [
+                                "AI/ML",
+                                "Self Supervised Learning",
+                                "Deep Learning",
+                                "Python"
+                            ],
+                            "text": "<p>currently I am working on a individual research which related to the eye disease ditection using self supervised learning</p>"
+                            
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 10
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Self-Supervised Learning for Image Rotation Prediction {{AI/ML}}",
+                            "province": "Western",
+                            "country": "SL",
+                            "institution": "University Of Kelaniya",
+                            "tags": [
+                                "AI/ML",
+                                "Self Supervised Learning",
+                                "Deep Learning",
+                                "Python",
+                                "pre project"
+                            ],
+                            "text": "<p>Instead of using class labels, the model learns by predicting the rotation angle of an image (0°, 90°, 180°, 270°). By doing this pre project , I could be able to deep dive in the self supervised learning..</p>"
+                        }
+                    }
+                }
+            ]
+        }]
+}
